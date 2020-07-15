@@ -15,6 +15,6 @@ end
 describe '#the_law_of_until' do
   it 'The Witcher season 2 comes out in 2021. Use an until loop to wait patiently until then!' do
       months_left = "12 months left until The Witcher season 2 comes out! Might as well replay the video games!\n11 months left until The Witcher season 2 comes out! Might as well replay the video games!\n10 months left until The Witcher season 2 comes out! Might as well replay the video games!\n9 months left until The Witcher season 2 comes out! Might as well replay the video games!\n8 months left until The Witcher season 2 comes out! Might as well replay the video games!\n7 months left until The Witcher season 2 comes out! Might as well replay the video games!\n6 months left until The Witcher season 2 comes out! Might as well replay the video games!\n5 months left until The Witcher season 2 comes out! Might as well replay the video games!\n4 months left until The Witcher season 2 comes out! Might as well replay the video games!\n3 months left until The Witcher season 2 comes out! Might as well replay the video games!\n2 months left until The Witcher season 2 comes out! Might as well replay the video games!\n1 months left until The Witcher season 2 comes out! Might as well replay the video games!\nIt's finally here! I should replay the video games to celebrate!\n"
-      expect(the_law_of_until).to output(months_left).to_stdout
+      expect{ the_law_of_until }.to output(months_left).to_stdout
   end
 end
