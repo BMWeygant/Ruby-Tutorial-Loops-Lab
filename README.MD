@@ -12,5 +12,5 @@ In this lab we will write 3 different methods inside the `lib/loops.rb` file.
 2. Copy the repo url. <br>
 3. In your console type in:
 ```
-git clone repo url
+git clone {repo url}
 ```
